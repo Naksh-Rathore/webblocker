@@ -4,14 +4,15 @@
 It uses the hosts file found in C:\Windows\System32\drivers\etc\hosts on Windows.
 It is used to map hostnames to IP addresses on your local machine.<br /><br />
 
-You can put 127.0.0.1 as the IP address for a URL and it will lead it to the local machine, making it unusable.<br>
+You can put 127.0.0.1 as the IP address for a URL and it will lead it to the local machine, making it unusable.<br />
+
 For example, to make YouTube unusable, you can do this:
 `127.0.0.1 www.youtube.com`<br />
 
-![Edit Hosts File in Windows 11](https://allthings.how/content/images/wordpress/2021/07/allthings.how-how-to-edit-hosts-file-in-windows-11-image-1.png)<br /><br />
+![Edit Hosts File in Windows 11](https://allthings.how/content/images/wordpress/2021/07/allthings.how-how-to-edit-hosts-file-in-windows-11-image-1.png)<br />
 
 ### Usage and Logic
-This script uses file reading and writing to hosts.txt to block websites.<br />
+This script uses file reading and writing to hosts.txt to block websites.<br /><br />
 
 To block and unblock a website, you can do this:
 ```python
